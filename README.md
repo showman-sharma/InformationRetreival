@@ -27,12 +27,15 @@ from informationRetrieval_ESA2 import InformationRetrieval
 from informationRetrieval_NESA2 import InformationRetrieval
 
 Run main.py as before with the appropriate arguments.
-Usage: main.py [-custom] [-dataset DATASET FOLDER] [-out_folder OUTPUT FOLDER]
+Usage: 
+> python main.py [-custom] [-dataset DATASET FOLDER] [-out_folder OUTPUT FOLDER]
                [-segmenter SEGMENTER TYPE (naive|punkt)] [-tokenizer TOKENIZER TYPE (naive|ptb)] 
 
 When the -custom flag is passed, the system will take a query from the user as input. For example:
 > python main.py -custom
+
 > Enter query below
+
 > Papers on Aerodynamics
 
 This will print the IDs of the five most relevant documents to the query to standard output.
