@@ -1,12 +1,13 @@
 # InformationRetreival
+## Description
 For any given query, an Information Retrieval (IR) system is used to obtain and rank relevant word documents from the data collection of interest. The most basic IR system uses Term Frequency Inverse Document Frequency (TF-IDF) to represent documents and queries as vectors, and then uses measures like cosine similarity to assess the relevance of a query to all the documents in the dataset.
 
 This TF-IDF based Vector Space Model (VSM) performs admirably, but it has a few flaws, such as the assumption that the words are semantically unrelated, necessitating the development of alternate IR approaches. The NLP community has spent a lot of time looking into ways to capture semantic relatedness in words and documents. Data-driven learning of vector representations from a big corpus is one of the most common ways.
 
 While bottom-up approaches have proven to be beneficial in recent years, the results of such models can be enhanced by including some type of top-down information accumulated over time by people. These top-down resources can be used to direct bottom-up excursions to find relationships between words and documents. Several new works in this field have lately surfaced. Latent Semantic Analysis is a well-known bottom-up approach for capturing semantic relatedness in words (LSA). Another method for capturing semantic relatedness in words/documents is explicit semantic analysis (ESA). ESA improves word representations by using Wikipedia's top-down knowledge.
 
-
-In main.py, kindly change line 5 accordingly before procedding:
+## Usage
+In main.py, kindly change line 5 accordingly before proceeding:
 1. baseline: 
 from informationRetrieval_baseline import InformationRetrieval
 2. Limited words(LW): 
