@@ -34,6 +34,7 @@ When the -custom flag is passed, the system will take a query from the user as i
 > python main.py -custom
 > Enter query below
 > Papers on Aerodynamics
+
 This will print the IDs of the five most relevant documents to the query to standard output.
 
 When the flag is not passed, all the queries in the Cranfield dataset are considered and precision@k, recall@k, f-score@k, nDCG@k and the Mean Average Precision are computed.
