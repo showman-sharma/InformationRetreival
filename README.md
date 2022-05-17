@@ -13,18 +13,19 @@ from informationRetrieval_baseline import InformationRetrieval
 from informationRetrieval_LW import InformationRetrieval
 3. LW+LSA: 
 from informationRetrieval_LSA import InformationRetrieval
-4. LW+LSA+bigrams: 
-from informationRetrieval_bigram import InformationRetrieval
-5. LW+ESA+LSA: 
-from informationRetrieval_ESA import InformationRetrieval
-6. LW+NESA+LSA: 
-from informationRetrieval_NESA import InformationRetrieval
-7. LW+bigrams: 
-from informationRetrieval_bigram2 import InformationRetrieval
-8. LW+ESA: 
+4. LW+ESA: 
 from informationRetrieval_ESA2 import InformationRetrieval
-9. LW+NESA: 
+5. LW+NESA: 
 from informationRetrieval_NESA2 import InformationRetrieval
+6. LW+bigrams: 
+from informationRetrieval_bigram2 import InformationRetrieval
+7. LW+ESA+LSA: 
+from informationRetrieval_ESA import InformationRetrieval
+8. LW+NESA+LSA: 
+from informationRetrieval_NESA import InformationRetrieval
+9. LW+LSA+bigrams: 
+from informationRetrieval_bigram import InformationRetrieval
+
 
 Run main.py as before with the appropriate arguments.
 Usage: 
