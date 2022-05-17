@@ -1,0 +1,2 @@
+# InformationRetreival
+For any given query, an Information Retrieval (IR) system is used to obtain and rank relevant word documents from the data collection of interest. The most basic IR system uses Term Frequency Inverse Document Frequency (TF-IDF) to represent documents and queries as vectors, and then uses measures like cosine similarity to assess the relevance of a query to all the documents in the dataset.
